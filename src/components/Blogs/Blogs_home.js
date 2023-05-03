@@ -15,10 +15,10 @@ const Blogs_home = () => {
       </Container>
       </Container>
       <Card>
-      <Card.Header>Featured</Card.Header>
+      <Card.Header>useEffect in React</Card.Header>
       <Card.Body>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+          <span className="purple">useEffect</span> in React is a function in React which allows us to perform side effects in our components.
         </Card.Text>
         <Link to="/blogs/useEffect">
             <Button variant="primary">Read</Button>

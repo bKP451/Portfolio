@@ -5,7 +5,9 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Blogs_home from "./components/Blogs/Blogs_home";
+import BlogOneUseEffect from "./components/Blogs/BlogOneUseEffect";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -38,7 +40,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/blogs" element={<Blogs_home />} />
+          <Route path="/blogs/useEffect" element={<BlogOneUseEffect />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

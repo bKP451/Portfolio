@@ -741,3 +741,10 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* Blog article body */
+.article-body {
+  color: white;
+  font-size: 25px;
+  text-align: left !important;
+}

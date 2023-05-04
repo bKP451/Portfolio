@@ -748,3 +748,8 @@ button:focus {
   font-size: 25px;
   text-align: left !important;
 }
+
+/* my DP */
+.img-fluid {
+  border-radius: 110px;
+}

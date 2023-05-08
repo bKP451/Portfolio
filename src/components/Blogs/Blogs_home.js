@@ -14,6 +14,7 @@ const Blogs_home = () => {
         </h1>
       </Container>
       </Container>
+
       <Card>
       <Card.Header>useEffect in React</Card.Header>
       <Card.Body>
@@ -25,6 +26,18 @@ const Blogs_home = () => {
         </Link>
       </Card.Body>
     </Card>
+
+    {/* <Card>
+      <Card.Header>useEffect in React</Card.Header>
+      <Card.Body>
+        <Card.Text>
+          <span className="purple">useEffect</span> in React is a function in React which allows us to perform side effects in our components.
+        </Card.Text>
+        <Link to="/blogs/useEffect">
+            <Button variant="primary">Read</Button>
+        </Link>
+      </Card.Body>
+    </Card> */}
       </>
     )
 }

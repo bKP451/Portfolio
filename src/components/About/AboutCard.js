@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Pandey Bikash </span>
             from <span className="purple"> Lalitpur, Nepal.</span>
-            <br />I am a computer engineering graduate from Paschimanchal Campus, Pokhara.
+            <br />I am a software developer who usually programs in JavaScript.  I have done B.E in Computer Engineering from Paschimanchal Campus, Pokhara.
             <br />
             <br />
             Apart from programming computers, some other activities that I love to do!

@@ -7,7 +7,7 @@ function BlogOneUseEffect() {
      <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          What is  in <strong className="purple">useEffect</strong> in React ?
+          What is <strong className="purple">useEffect</strong> on React terms ?
         </h1>
       </Container>
       <p className="article-body">

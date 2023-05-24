@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Blogs_home from "./components/Blogs/Blogs_home";
-import BlogOneUseEffect from "./components/Blogs/BlogOneUseEffect";
 
 import {
   BrowserRouter as Router,
@@ -41,10 +40,9 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs_home />} />
-          <Route path="/blogs/useEffect" element={<BlogOneUseEffect />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
